@@ -11,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         WebView myWebView = (WebView) findViewById(R.id.webview);
-        myWebView.loadUrl("https://github.com/tylerlong/rc-embeddable-voice-android-demo");
+        myWebView.loadUrl("https://ringcentral.github.io/ringcentral-embeddable-voice/app.html");
     }
 }
